@@ -593,6 +593,7 @@ footer {
 /*=============== footer ===============*/
 
 /*=============== Responsive ===============*/
+/* tablets */
 @media screen and (min-width: 700px) and (max-width: 900px) {
   :root {
     --medium-padding: 0.8rem;
@@ -636,16 +637,16 @@ footer {
     background-size: cover;
   }
   .feature-img01 {
-    background-image: url('/assets/media/images/why01.png');
+    background-image: url('assets/media/images/why01.png');
   }
   .feature-img02 {
-    background-image: url('/assets/media/images/why02.png');
+    background-image: url('assets/media/images/why02.png');
   }
   .feature-img03 {
-    background-image: url('/assets/media/images/why03.png');
+    background-image: url('assets/media/images/why03.png');
   }
   .feature-img04 {
-    background-image: url('/assets/media/images/why04.png');
+    background-image: url('assets/media/images/why04.png');
   }
   /*=============== expereince-section ===============*/
   .expereince-img {
@@ -662,6 +663,7 @@ footer {
   }
 
 }
+/*laptops, desktops*/
 @media screen and (min-width: 900px) {
   .lg-2-col {
     grid-template-columns: repeat(2, 1fr);
